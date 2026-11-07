@@ -120,16 +120,8 @@ export default function Home() {
                                 <p className="text-[#bdbdbd] text-[14px] font-bold text-left ">Humidity</p>
                             </div>
                             <div className="bg-[#0a0b0f] w-25 h-25 p-3 rounded-2xl">
-                                <h1 className="text-white font-mono text-left">{weather?.current.air_quality}</h1>
-                                <p className="text-[#bdbdbd] text-[14px] font-bold text-left ">Air Quality</p>
-                            </div>
-                            <div className="bg-[#0a0b0f] w-25 h-25 p-3 rounded-2xl">
-                                <h1 className="text-white font-mono text-left">{weather?.current.pressure_msl} hPa</h1>
-                                <p className="text-[#bdbdbd] text-[14px] font-bold text-left ">Pressure</p>
-                            </div>
-                            <div className="bg-[#0a0b0f] w-25 h-25 p-3 rounded-2xl">
-                                <h1 className="text-white font-mono text-left">Solar Cycle</h1>
-                                <p className="text-[#bdbdbd] text-[14px] font-bold text-left ">19:58</p>
+                                <h1 className="text-white font-mono text-left">{weather?.current.precipitation}</h1>
+                                <p className="text-[#bdbdbd] text-[14px] font-bold text-left ">Precipitation</p>
                             </div>
 
                         </div>
